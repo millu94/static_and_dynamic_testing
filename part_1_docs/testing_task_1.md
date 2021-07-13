@@ -17,6 +17,7 @@ Only comment on errors that would stop the tests running.
 class CardGame:
 
 # is equal to operator on line 21 should be "=="
+# else is missing ":"
   def check_for_ace(self, card):
     if card.value = 1:
       return True
@@ -24,6 +25,9 @@ class CardGame:
       return False
    
 # "dif" should be "def"
+# missing comma in-between card1 + card2
+# "card" on line 31 should be card1
+# 31 onwards requires indentation
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
     return card
@@ -31,7 +35,8 @@ class CardGame:
     return card2
   
 
-# total is not declared as a variable
+# total needs to be equal to a value
+# indentation error on line 44 means that loop will only iterate once
 def cards_total(self, cards):
   total
   for card in cards:
