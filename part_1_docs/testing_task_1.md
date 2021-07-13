@@ -16,14 +16,14 @@ Only comment on errors that would stop the tests running.
 
 class CardGame:
 
-
+# is equal to operator on line 21 should be "=="
   def check_for_ace(self, card):
     if card.value = 1:
       return True
     else
       return False
    
-
+# "dif" should be "def"
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
     return card
@@ -31,7 +31,7 @@ class CardGame:
     return card2
   
 
-
+# total is not declared as a variable
 def cards_total(self, cards):
   total
   for card in cards:
